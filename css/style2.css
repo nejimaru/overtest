@@ -297,9 +297,9 @@ h2 {
 
 }
 
-@media (max-width: 351px) {
+@media (max-width: 363px) {
     .container-stats {
-      margin-right: 7%;
+      margin-right: 10%;
     }
     .title, .value {
       font-size:
@@ -313,7 +313,47 @@ h2 {
     }
     .hero-name {
         font-size: 22px;
-        padding: 27px 10px 10px 0px;
+        padding: 27px 0px 10px 0px;
+    }
+    .Medals, .win-loss, .play-time {
+      font-size: 11px;
+      padding: 27px 9px 0px 0px;
+    }
+    .kill, .Elimination-Average, .Deaths-Avrg, .DamageDone-Avrg,
+    .FinalBlows-Avrg, .ObjectiveTime-Avrg, .ObjectiveKills-Avrg,
+    .WeaponKill-Avrg, .SelfHealing-Avrg, .HealingDone-Avrg,
+    .UltimCapa-Avrg, .OffAssist-Avrg, .DefAssist-Avrg {
+    width: 10%;
+  }
+    .Avrg {
+        font-size: 12px;
+        text-align: center;
+    }
+    .hero-card {
+      height: 95px;
+    }
+    .title, .value {
+      font-size: 15px;
+    }
+}
+
+@media (max-width: 351px) {
+    .container-stats {
+      margin-right: 10%;
+    }
+    .title, .value {
+      font-size:
+    }
+    .play-time{
+      font-size:
+    }
+    .hero-avatar {
+        width: 82px;
+        height: 70px;
+    }
+    .hero-name {
+        font-size: 22px;
+        padding: 27px 0px 10px 0px;
     }
     .Medals, .win-loss, .play-time {
       font-size: 11px;
